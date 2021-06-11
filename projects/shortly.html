@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shortly</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Syne+Mono&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#services" class="nav-link">My Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#about" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#work" class="nav-link">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro portfolio-individual">
+            <h1 class="section-title section-title-intro"><strong>Shortly</strong></h1>
+            <p class="section-subtitle section-subtitle-intro">shortening long URLs</p>
+            <img src="../img/shortly.png" alt="shortly app screenshot" class="intro-img" />
+        </section>
+
+        <div class="portfolio-item-individual">
+            <h2>Overwiew</h2>
+            <p>
+                This is a solution to the
+                <a href="https://www.frontendmentor.io/solutions/react-scss-shrtcode-api-sessionstorage-clipboard-api-wbayhjxMP" class="portfolio-desc-link" target="_blank" rel="noreferrer"
+                    >Shortly URL shortening API Challenge</a
+                >
+                on Frontend Mentor. Frontend Mentor challenges help to improve coding skills by building realistic projects.
+            </p>
+            <p>The app is built with bundle of modern web technologies: React JS library, SCSS preprocessor, semantic HTML and Session storage.</p>
+            <h2>Technologies</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>SCSS preprocessor</li>
+                <li>React - JS library (functional components & hooks)</li>
+                <li>Clipboard API</li>
+                <li>Session storage</li>
+                <li><a href="https://shrtco.de/" class="portfolio-desc-link" target="_blank" rel="noreferrer">shrcode API</a></li>
+            </ul>
+            <h2>Workflow</h2>
+            <ol>
+                <li>Project initialization as a public repository on GitHub</li>
+                <li>Planning out HTML structure and CSS classes based on design files</li>
+                <li>Creating well-structured content as React components with JSX</li>
+                <li>Styling the page from top to bottom by utilizing mobile-first approach</li>
+                <li>Adding media queries for desktop layout</li>
+                <li>Implementing main functionality of the website - shortening valid URLs</li>
+                <li>Integrating Session storage to prevent losing results after refreshing the browser</li>
+                <li>Configuring repository to publish code with GitHub Pages</li>
+            </ol>
+            <h2>Fulfilled user stories</h2>
+            <ul>
+                <li>View the optimal layout for the site depending on their device's screen size</li>
+                <li>Shorten any valid URL</li>
+                <li>See a list of their shortened links, even after refreshing the browser</li>
+                <li>Copy the shortened link to their clipboard in a single click</li>
+                <li>Receive an error message when the form is submitted if the input field is empty</li>
+            </ul>
+            <div class="actions-container">
+                <a href="https://github.com/tkulic/url-shorty" class="btn" target="_blank" rel="noreferrer">View code</a>
+                <a href="https://tkulic.github.io/url-shorty/" class="btn" target="_blank" rel="noreferrer">Live site</a>
+                <a href="../index.html#work" class="btn btn-secondary">Go back</a>
+            </div>
+        </div>
+
+        <footer class="footer" id="contact">
+            <a href="mailto:toni.kulic@yahoo.com" class="footer-link">toni.kulic@yahoo.com</a>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://github.com/tkulic" target="_blank" rel="noreferrer">
+                        <img src="../img/github.svg" alt="github logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.linkedin.com/in/toni-kuli%C4%87-98b7371b6" target="_blank" rel="noreferrer">
+                        <img src="../img/linkedin.svg" alt="linkedin logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://codepen.io/toni00" target="_blank" rel="noreferrer">
+                        <img src="../img/codepen.svg" alt="codepen logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.frontendmentor.io/profile/tkulic" target="_blank" rel="noreferrer">
+                        <img src="../img/frontend-mentor.svg" alt="frontend mentor logo" />
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="../index.js"></script>
+    </body>
+</html>

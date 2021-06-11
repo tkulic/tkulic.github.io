@@ -1,5 +1,26 @@
-# Repozitorij za moju web stranicu
+# My Portfolio Website
 
-Ovdje će se nalaziti HTML, CSS i Javascript.
+## Table of contents
 
-Adresa stranice je https://tkulic.github.io
+-   [Links](#links)
+-   [Technologies](#technologies)
+-   [Author](#author)
+
+## Links
+
+-   [Live website](https://tkulic.github.io)
+-   [GitHub repository](https://github.com/tkulic/tkulic.github.io)
+
+## Technologies
+
+-   HTML5
+    -   Semantic elements
+    -   highlighted a11y
+-   CSS3:
+    -   Grid
+    -   Custom properties (variables)
+-   Vanilla JavaScript
+
+## Author
+
+-   GitHub profile - [Toni Kulić](https://tkulic.github.io)

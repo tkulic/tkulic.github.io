@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 6.35 6.3500003"
+   height="36"
+   width="36">
+  <defs
+     id="defs2" />
+  <g
+     transform="translate(0,-290.64995)"
+     id="layer1">
+    <path
+       d="M 3.250378,296.16609 A 2.7593491,2.7496161 0 0 1 1.2329204,295.39866 2.7593491,2.7496161 0 0 1 0.38792658,293.4184"
+       id="path819"
+       stroke="#77a7fd"
+       style="fill:none;fill-rule:evenodd;stroke-width:0.5px;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="path821"
+       d="m 2.8718373,291.48383 v 3.44554"
+       stroke="#77a7fd"
+       style="fill:none;stroke-width:0.5px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path823"
+       d="m 5.9603007,292.40348 -2.0050301,0.82731"
+       stroke="#77a7fd"
+       style="fill:none;stroke-width:0.5px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path823-7"
+       d="M 5.9603007,294.0581 3.9552706,293.23079"
+       stroke="#77a7fd"
+       style="fill:none;stroke-width:0.5px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Syne+Mono&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#services" class="nav-link">My Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#about" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#work" class="nav-link">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro portfolio-individual">
+            <h1 class="section-title section-title-intro"><strong>WeatherApp</strong></h1>
+            <p class="section-subtitle section-subtitle-intro">local weather data</p>
+            <img src="../img/weather-app.png" alt="weather app screenshot" class="intro-img" />
+        </section>
+
+        <div class="portfolio-item-individual">
+            <h2>Overwiew</h2>
+            <p>
+                This application represents an enhanced solution to the
+                <a href="https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather" class="portfolio-desc-link" target="_blank" rel="noreferrer"
+                    >freeCodeCamp Challenge "Show the local weather"</a
+                >. Its main functionality is displaying weather data for the current location.
+            </p>
+            <h2>Technologies</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6)</li>
+                <li>Geolocation API</li>
+                <li><a href="https://weather-proxy.freecodecamp.rocks/" class="portfolio-desc-link" target="_blank" rel="noreferrer">freeCodeCamp Weather API</a></li>
+            </ul>
+            <h2>Fulfilled user stories:</h2>
+            <ul>
+                <li>I can see the weather in my current location.</li>
+                <li>I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.</li>
+                <li>I can push a button to toggle between Fahrenheit and Celsius.</li>
+                <li>I can switch between dark and light mode. <em>(Bonus feature not included in the challenge)</em></li>
+            </ul>
+            <div class="actions-container">
+                <a href="https://codepen.io/toni00/pen/ExZzXRN" class="btn" target="_blank" rel="noreferrer">View code</a>
+                <a href="https://codepen.io/toni00/full/ExZzXRN" class="btn" target="_blank" rel="noreferrer">Live site</a>
+                <a href="../index.html#work" class="btn btn-secondary">Go back</a>
+            </div>
+        </div>
+
+        <footer class="footer" id="contact">
+            <a href="mailto:toni.kulic@yahoo.com" class="footer-link">toni.kulic@yahoo.com</a>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://github.com/tkulic" target="_blank" rel="noreferrer">
+                        <img src="../img/github.svg" alt="github logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.linkedin.com/in/toni-kuli%C4%87-98b7371b6" target="_blank" rel="noreferrer">
+                        <img src="../img/linkedin.svg" alt="linkedin logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://codepen.io/toni00" target="_blank" rel="noreferrer">
+                        <img src="../img/codepen.svg" alt="codepen logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.frontendmentor.io/profile/tkulic" target="_blank" rel="noreferrer">
+                        <img src="../img/frontend-mentor.svg" alt="frontend mentor logo" />
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="../index.js"></script>
+    </body>
+</html>
