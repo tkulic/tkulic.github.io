@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Print design</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Syne+Mono&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#services" class="nav-link">My Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#about" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#work" class="nav-link">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro portfolio-individual">
+            <h1 class="section-title section-title-intro">Print<strong>Design</strong></h1>
+            <p class="section-subtitle section-subtitle-intro">visual communication</p>
+            <img src="../img/design/duhovna-obnova-mladi.jpg" alt="flyer screenshot" class="intro-img" />
+        </section>
+
+        <section class="portfolio-item-individual">
+            <h2>Overwiew</h2>
+            <p>
+                <a href="#gallery" class="portfolio-desc-link">Gallery</a> of design products, made over years of ministry in catholic communities. This collection of selected examples include works
+                for various print media, ranging from small paper advertisements, over mid-sized publications to 4-meters-wide mesh banners.
+            </p>
+            <p>
+                <em>The making of</em> every piece of work here incorporates graphic design principles: establishing <strong>visual hierarchy</strong>, creating pleasing
+                <strong>elements alignment</strong>, and conveying the message through <strong>typography</strong> and <strong>color pallete</strong>.
+            </p>
+            <h2>Technologies and software</h2>
+            <ul>
+                <li><strong>Inkscape</strong> - vector graphics design</li>
+                <li><strong>Microsoft Publisher</strong> - layout composition</li>
+                <li><strong>GIMP</strong> - raster graphics manipulation</li>
+            </ul>
+
+            <h2>Gallery</h2>
+            <div id="gallery" class="portfolio">
+                <figure class="portfolio-item thumbnail" data-slide="1" tabindex="0">
+                    <img src="../img/design/flyer-bi-bi-quadrat.png" alt="flyer with a prominent cross illustration" class="portfolio-img" />
+                </figure>
+
+                <figure class="portfolio-item thumbnail" data-slide="2" tabindex="0">
+                    <img src="../img/design/zeitpunkt-quadrat.png" alt="promotion poster for youth packed with emojis" class="portfolio-img" />
+                </figure>
+
+                <figure class="portfolio-item thumbnail" data-slide="3" tabindex="0">
+                    <img src="../img/design/duhovna-obnova-mladi-quadrat.jpg" alt="colorful flyer for youth" class="portfolio-img" />
+                </figure>
+
+                <figure class="portfolio-item thumbnail" data-slide="4" tabindex="0">
+                    <img src="../img/design/jakobsweg-quadrat.png" alt="geographical map with higlighted routes and description" class="portfolio-img" />
+                </figure>
+
+                <figure class="portfolio-item thumbnail" data-slide="5" tabindex="0">
+                    <img
+                        src="../img/design/50-jahre-banner-quadrat.png"
+                        alt="banner for the occasion of celebrating the 50. anniversary of the croatian catholic community in Ludwigsburg"
+                        class="portfolio-img"
+                    />
+                </figure>
+
+                <figure class="portfolio-item thumbnail" data-slide="6" tabindex="0">
+                    <img
+                        src=""
+                        alt="collage of photos from the publication for the occasion of celebrating the 50. anniversary of the croatian catholic community in Ludwigsburg"
+                        class="portfolio-img"
+                    />
+                </figure>
+            </div>
+            <div id="lightbox" class="lightbox hidden">
+                <button id="lightbox-close" class="lightbox-btn" aria-label="close lightbox">⨉</button>
+
+                <figure class="lightbox-slide" data-slide="1">
+                    <img src="../img/design/flyer-bi-bi.png" alt="flyer with a prominent cross illustration" />
+                </figure>
+
+                <figure class="lightbox-slide" data-slide="2">
+                    <img src="../img/design/zeitpunkt.png" alt="Promotion poster for youth packed with emojis" />
+                </figure>
+
+                <figure class="lightbox-slide" data-slide="3">
+                    <img src="../img/design/duhovna-obnova-mladi.jpg" alt="Colorful flyer for youth" />
+                </figure>
+
+                <figure class="lightbox-slide" data-slide="4">
+                    <img src="../img/design/jakobsweg.png" alt="Map with higlighted routes and description" />
+                </figure>
+
+                <figure class="lightbox-slide" data-slide="5">
+                    <img src="../img/design/50-jahre-banner.png" alt="banner for the occasion of celebrating the 50. anniversary of the croatian catholic community in Ludwigsburg" />
+                </figure>
+
+                <figure class="lightbox-slide" data-slide="6">
+                    <img src="" alt="collage of photos from the publication for the occasion of celebrating the 50. anniversary of the croatian catholic community in Ludwigsburg" />
+                </figure>
+
+                <div class="lightbox-controls">
+                    <button id="previous-slide-btn" class="lightbox-btn" aria-label="previous slide">◀</button>
+                    <button id="next-slide-btn" class="lightbox-btn" aria-label="next slide">▶</button>
+                </div>
+            </div>
+
+            <div class="actions-container">
+                <a href="../index.html#work" class="btn btn-secondary">Go back</a>
+            </div>
+        </section>
+
+        <footer class="footer" id="contact">
+            <a href="mailto:toni.kulic@yahoo.com" class="footer-link">toni.kulic@yahoo.com</a>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://github.com/tkulic" target="_blank" rel="noreferrer">
+                        <img src="../img/github.svg" alt="github logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.linkedin.com/in/toni-kuli%C4%87-98b7371b6" target="_blank" rel="noreferrer">
+                        <img src="../img/linkedin.svg" alt="linkedin logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://codepen.io/toni00" target="_blank" rel="noreferrer">
+                        <img src="../img/codepen.svg" alt="codepen logo" />
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.frontendmentor.io/profile/tkulic" target="_blank" rel="noreferrer">
+                        <img src="../img/frontend-mentor.svg" alt="frontend mentor logo" />
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="../index.js"></script>
+    </body>
+</html>
