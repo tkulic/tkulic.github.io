@@ -4,6 +4,7 @@
 
 -   [Links](#links)
 -   [Technologies](#technologies)
+-   [Features](#features)
 -   [Author](#author)
 
 ## Links
@@ -20,6 +21,15 @@
     -   Grid
     -   Custom properties (variables)
 -   Vanilla JavaScript
+
+## Features
+
+-   Custom lightbox gallery
+-   Accessibility:
+    -   Semantic markup
+    -   Aria labels on interactive elements without text content
+    -   Consistent focus styling on all markup elements
+    -   Navigation links excluded from tab order when navigation menu is closed
 
 ## Author
 
