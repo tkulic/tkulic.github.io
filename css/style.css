@@ -96,7 +96,6 @@ h3 {
 
 h1 {
     font-size: var(--fs-h1);
-    text-align: right;
 }
 h2 {
     font-size: var(--fs-h2);
@@ -112,7 +111,6 @@ h3 {
 .section-title-intro {
     font-weight: var(--fw-reg);
     letter-spacing: 1px;
-    margin-left: 0.5em;
 }
 
 .section-title-intro strong {
@@ -196,7 +194,17 @@ header {
     top: 1em;
     z-index: 1000;
 }
+
 .nav-toggle:focus {
+    outline: 4px solid var(--clr-accent);
+    outline-offset: 4px;
+}
+
+/* show focus ring only on keyboard focus */
+.nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+}
+.nav-toggle:focus-visible {
     outline: 4px solid var(--clr-accent);
     outline-offset: 4px;
 }
@@ -255,6 +263,7 @@ header {
 
 .intro {
     position: relative;
+    margin: 0 auto;
 }
 
 .intro-img {
@@ -263,29 +272,35 @@ header {
 
 .section-subtitle-intro {
     display: inline-block;
+    width: 100%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     .intro {
         display: grid;
-        width: min-content;
+        max-width: 600px;
+        min-height: 100vh;
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas:
             "img title"
             "img subtitle";
-        grid-template-columns: min-content max-content;
+    }
+
+    h1 {
+        text-align: right;
     }
 
     .intro-img {
         grid-area: img;
-        min-width: 250px;
         position: relative;
+        align-self: center;
         z-index: 2;
     }
 
     .section-title-intro {
         align-self: end;
+        margin-left: 0.5em;
     }
 
     .section-subtitle-intro {

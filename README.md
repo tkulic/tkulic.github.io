@@ -16,7 +16,6 @@
 
 -   HTML5
     -   Semantic elements
-    -   highlighted a11y
 -   CSS3:
     -   Grid
     -   Custom properties (variables)
@@ -29,6 +28,7 @@
     -   Semantic markup
     -   Aria labels on interactive elements without text content
     -   Consistent focus styling on all markup elements
+    -   Differentiated mouse and keyboard focus
     -   Navigation links excluded from tab order when navigation menu is closed
 
 ## Author
