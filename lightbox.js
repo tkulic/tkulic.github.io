@@ -21,13 +21,12 @@ thumbnails.forEach(thumbnail => {
     thumbnail.addEventListener("click", event => {
         showSlide(event.target.parentElement.dataset.slide)
         lightbox.classList.remove("hidden")
-        nextSlideBtn.focus()
+        document.querySelector(".lightbox-controls").focus()
     })
 })
 
 // navigate lightbox slides
 function goToPreviuosSlide() {
-    previousSlideBtn.focus()
     hideAllSlides()
 
     if (currentSlide === 1) {
@@ -40,7 +39,6 @@ function goToPreviuosSlide() {
 }
 
 function goToNextSlide() {
-    nextSlideBtn.focus()
     hideAllSlides()
 
     if (currentSlide === slides.length) {

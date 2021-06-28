@@ -71,6 +71,7 @@ strong {
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
+    text-align: center;
     cursor: pointer;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -84,7 +85,6 @@ strong {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-
 /* Typography */
 
 h1,
@@ -263,7 +263,6 @@ header {
 
 .intro {
     position: relative;
-    margin: 0 auto;
 }
 
 .intro-img {
@@ -278,7 +277,7 @@ header {
 @media (min-width: 500px) {
     .intro {
         display: grid;
-        max-width: 600px;
+        max-width: 720px;
         min-height: 100vh;
         margin: 0 auto;
         grid-column-gap: 1em;
@@ -509,7 +508,6 @@ header {
 }
 
 .social-list-link {
-    padding: 0.5em;
     color: var(--clr-accent);
 }
 
@@ -522,10 +520,6 @@ header {
     max-width: 1000px;
     margin: 0 auto;
     max-width: 720px;
-}
-
-.portfolio-individual {
-    padding-bottom: 1em;
 }
 
 .portfolio-item-individual h2 {
@@ -550,13 +544,14 @@ header {
 
 .actions-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
 }
 
 .portfolio-item-individual .btn {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 1em;
+    width: 160px;
 }
 
 .btn-secondary {
@@ -577,7 +572,7 @@ header {
     cursor: pointer;
 }
 
-/* lightbox */
+/* lightbox gallery */
 
 .lightbox {
     position: fixed;
@@ -636,6 +631,10 @@ header {
     position: absolute;
     top: 50%;
     width: 80vw;
+}
+
+.lightbox-controls:focus {
+    outline: none;
 }
 
 .lightbox-controls .lightbox-btn {
